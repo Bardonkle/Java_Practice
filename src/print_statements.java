@@ -3,7 +3,7 @@
 // println is short for print line which prints on a new line
 // print shows on the same line instead
 
-public class App {
+public class print_statements {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
     }

@@ -26,6 +26,14 @@ public class currency_converter {
 
         System.out.println("How mmuch money you want to convert? ");
         amount = sc.nextFloat();
+        // For amounts conversion rate 
+        if (code == 1) {
+
+            dollar = amount / 70;
+            System.out.println("Your " + amount + " ruppe is : " + f.format(dollar) + "Dollar");
+
+
+        }
     }
 
 }
